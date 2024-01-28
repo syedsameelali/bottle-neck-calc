@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@600;800;900&family=Roboto:wght@500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat;
+}
+/* "https://www.shutterstock.com/shutterstock/videos/1089403151/thumb/1.jpg?ip=x480" */
+
+.main-section {
+  height: 100vh;
+  width: 100%;
+  background-image: url("./10987662_4561977.jpg");
+  color: yellow;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+.wrapper {
+  max-width: 1060px;
+  margin-inline: auto;
+  padding: 200px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+label {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+select {
+  height: 30px;
+  width: 100%;
+}
+select > option {
+  height: 30px;
+  width: 100%;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+#bottleneck-percentage {
+  margin-top: 50px;
+  font-size: 24px;
+  text-align: center;
+}
+
+select {
+  background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+border-radius: 8px;
+height: 5vh;
+margin-bottom: 4vh;
+color: white;
+}
+
+option {
+  background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: black;
+}
