@@ -9,7 +9,7 @@
 /* "https://www.shutterstock.com/shutterstock/videos/1089403151/thumb/1.jpg?ip=x480" */
 
 .main-section {
-  height: 100vh;
+  height: 100%;
   width: 100%;
   background-image: url("./10987662_4561977.jpg");
   color: yellow;
